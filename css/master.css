@@ -4,3 +4,36 @@
   border: 1px solid black;
   height: 300px;
 }
+li {
+  list-style: none;
+}
+/* fixed menu */
+header li {
+  display: inline-block;
+}
+div {
+  padding: 1vh 0 1vh 0;
+}
+header img {
+  width: 200%;
+}
+/* jumbotron */
+.ms_banner {
+  background-image: url(../img/bg-dbaas-1-1799d4ba-1024x547.jpg);
+  width: 100%
+}
+.ms_banner a {
+  width: 100%;
+}
+/* immagini bastarde */
+.ms_img_bstrd {
+  background-color: lightgrey;
+}
+/* deploy and scale */
+/* designed */
+.ms_designed {
+  background-color: lightgrey;
+}
+.ms_designed img {
+  width: 100%;
+}
