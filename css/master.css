@@ -34,6 +34,13 @@ header img {
 .ms_designed {
   background-color: lightgrey;
 }
+.ms_designed i {
+  display: inline-block;
+}
 .ms_designed img {
+  display: inline-block;
   width: 100%;
+}
+.ms_designed .col-xs-1 {
+  margin-top: 20%;
 }
