@@ -4,6 +4,12 @@
   border: 1px solid black;
   height: 300px;
 }
+/* general */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  font-size: 2em;
+}
 li {
   list-style: none;
 }
@@ -28,11 +34,13 @@ div {
 }
 .ms_fixed {
   background-color: white;
+  font-size: 0.9em;
   width: 100%;
   z-index: 999;
 }
 .ms_fixed li {
   display: inline-block;
+  padding: 3px;
 }
 .ms_fixed img {
   width: 200%;
@@ -45,6 +53,9 @@ div {
   background-image: url(../img/bg-dbaas-1-1799d4ba-1024x547.jpg);
   width: 100%;
   color: white;
+}
+.ms_banner h1 {
+  font-size: 3em
 }
 .ms_banner .row div:last-child {
   background-color: white;
@@ -65,6 +76,9 @@ div {
 .ms_img_bstrd {
   background-color: #F3F5F9;
 }
+.ms_img_bstrd a {
+  font-size: 0.7em;
+}
 /* deploy and scale */
 .ms_deploy li {
   margin-bottom: 5%;
@@ -84,6 +98,9 @@ div {
 .ms_designed .col-xs-1 {
   margin-top: 20%;
 }
+.ms_designed .row div:last-child p:first-child {
+  font-size: 0.8em
+}
 /* service customers */
 .ms_customer {
   background-color: #0034B1;
@@ -91,6 +108,24 @@ div {
 }
 .ms_underline {
   border-bottom: 1px solid white;
+}
+.ms_underline,
+.ms_customer .row div:last-child,
+.ms_customer .row div:nth-last-child(2) {
+   padding: 0;
+ }
+ .ms_customer .row div:last-child {
+   padding: 0 0 0 5%;
+ }
+.ms_customer p,
+.ms_customer a {
+  font-size: 0.7em
+}
+.ms_customer p,
+.ms_customer a,
+.ms_customer h5 {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 /* developpement */
 .ms_develo {
