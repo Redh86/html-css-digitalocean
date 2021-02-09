@@ -7,32 +7,72 @@
 li {
   list-style: none;
 }
-/* fixed menu */
-header li {
-  display: inline-block;
+.azzurro {
+  color: #006AFF;
+}
+.blue {
+  color: #0034B1;
+}
+.border-left {
+  border-left: 1px solid black;
+}
+i {
+  padding-right: 2%;
 }
 div {
   padding: 1vh 0 1vh 0;
 }
-header img {
+/* fixed menu */
+.ms_fixed div {
+  padding: 5px 0 5px 0;
+}
+.ms_fixed {
+  background-color: white;
+  width: 100%;
+  z-index: 999;
+}
+.ms_fixed li {
+  display: inline-block;
+}
+.ms_fixed img {
   width: 200%;
+}
+.ms_fixed i {
+  padding: 0;
 }
 /* jumbotron */
 .ms_banner {
   background-image: url(../img/bg-dbaas-1-1799d4ba-1024x547.jpg);
-  width: 100%
+  width: 100%;
+  color: white;
+}
+.ms_banner .row div:last-child {
+  background-color: white;
+  color: black;
 }
 .ms_banner a {
   width: 100%;
 }
+.ms_banner .row div:last-child a:last-child {
+  background-color: white;
+  color: black;
+}
+.ms_banner .row div:last-child a:last-child img {
+  width: 4%;
+  float: left;
+}
 /* immagini bastarde */
 .ms_img_bstrd {
-  background-color: lightgrey;
+  background-color: #F3F5F9;
 }
 /* deploy and scale */
+.ms_deploy li {
+  margin-bottom: 5%;
+  padding-left: 0;
+}
 /* designed */
 .ms_designed {
-  background-color: lightgrey;
+  background-color: #F3F5F9;
 }
 .ms_designed i {
   display: inline-block;
@@ -43,4 +83,32 @@ header img {
 }
 .ms_designed .col-xs-1 {
   margin-top: 20%;
+}
+/* service customers */
+.ms_customer {
+  background-color: #0034B1;
+  color: white;
+}
+.ms_underline {
+  border-bottom: 1px solid white;
+}
+/* developpement */
+.ms_develo {
+  background-color: #F3F5F9;
+}
+.ms_rockerbox {
+  background-color: white;
+}
+.ms_develo .col-xs-3 {
+  margin-top: 13%;
+}
+/* get started */
+.ms_get {
+  background-color: #0034B1;
+  color: white;
+}
+/* footer */
+.ms_footer {
+  background-color: #031C4E;
+  color: white
 }
